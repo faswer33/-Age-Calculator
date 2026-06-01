@@ -1,0 +1,11 @@
+<?php
+
+$birthYear = 1998;
+
+$currentYear = date("Y");
+
+$age = $currentYear - $birthYear;
+
+echo "Age: " . $age;
+
+?>
