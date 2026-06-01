@@ -1,0 +1,17 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int birthYear = 1998;
+
+        int currentYear =
+            DateTime.Now.Year;
+
+        int age =
+            currentYear - birthYear;
+
+        Console.WriteLine($"Age: {age}");
+    }
+}
